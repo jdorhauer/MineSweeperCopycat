@@ -20,12 +20,43 @@ namespace MineSweeperCopycat
     /// </summary>
     public partial class MainWindow : Window
     {
-        bool isBomb = false;
         int bombsNextTo = 0;
+
+        public Random a = new Random();
+        private List<int> randomList = new List<int>();
+        int MyNumber = 0;
+        private void NewNumber()
+        {
+            MyNumber = a.Next(1, 100);
+            if (!randomList.Contains(MyNumber))
+                randomList.Add(MyNumber);
+        }
+
+        private void FillList()
+        {
+            while (randomList.Count < 10)
+            {
+                NewNumber();
+            }
+        }
 
         public MainWindow()
         {
             InitializeComponent();
+            FillList();
+        }
+
+        private void CheckForMine(object sender, RoutedEventArgs e)
+        {
+            var tag = int.Parse(((Button)sender).Tag.ToString());
+            if (randomList.Contains(tag))
+            {
+                // game over
+            }
+            else
+            {
+                // display number of mines touching that box
+            }
         }
     }
 }
