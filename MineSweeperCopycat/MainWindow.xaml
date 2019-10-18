@@ -1,0 +1,138 @@
+﻿<Window x:Class="MineSweeperCopycat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MineSweeperCopycat"
+        mc:Ignorable="d"
+        Title="MineSweeper" Height="300" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" Grid.Column="0" Click="CheckForMine" Tag="1"></Button>
+        <Button Grid.Row="1" Grid.Column="0" Click="CheckForMine" Tag="2"></Button>
+        <Button Grid.Row="2" Grid.Column="0" Click="CheckForMine" Tag="3"></Button>
+        <Button Grid.Row="3" Grid.Column="0" Click="CheckForMine" Tag="4"></Button>
+        <Button Grid.Row="4" Grid.Column="0" Click="CheckForMine" Tag="5"></Button>
+        <Button Grid.Row="5" Grid.Column="0" Click="CheckForMine" Tag="6"></Button>
+        <Button Grid.Row="6" Grid.Column="0" Click="CheckForMine" Tag="7"></Button>
+        <Button Grid.Row="7" Grid.Column="0" Click="CheckForMine" Tag="8"></Button>
+        <Button Grid.Row="8" Grid.Column="0" Click="CheckForMine" Tag="9"></Button>
+        <Button Grid.Row="9" Grid.Column="0" Click="CheckForMine" Tag="10"></Button>
+        <Button Grid.Row="0" Grid.Column="1" Click="CheckForMine" Tag="11"></Button>
+        <Button Grid.Row="1" Grid.Column="1" Click="CheckForMine" Tag="12"></Button>
+        <Button Grid.Row="2" Grid.Column="1" Click="CheckForMine" Tag="13"></Button>
+        <Button Grid.Row="3" Grid.Column="1" Click="CheckForMine" Tag="14"></Button>
+        <Button Grid.Row="4" Grid.Column="1" Click="CheckForMine" Tag="15"></Button>
+        <Button Grid.Row="5" Grid.Column="1" Click="CheckForMine" Tag="16"></Button>
+        <Button Grid.Row="6" Grid.Column="1" Click="CheckForMine" Tag="17"></Button>
+        <Button Grid.Row="7" Grid.Column="1" Click="CheckForMine" Tag="18"></Button>
+        <Button Grid.Row="8" Grid.Column="1" Click="CheckForMine" Tag="19"></Button>
+        <Button Grid.Row="9" Grid.Column="1" Click="CheckForMine" Tag="20"></Button>
+        <Button Grid.Row="0" Grid.Column="2" Click="CheckForMine" Tag="21"></Button>
+        <Button Grid.Row="1" Grid.Column="2" Click="CheckForMine" Tag="22"></Button>
+        <Button Grid.Row="2" Grid.Column="2" Click="CheckForMine" Tag="23"></Button>
+        <Button Grid.Row="3" Grid.Column="2" Click="CheckForMine" Tag="24"></Button>
+        <Button Grid.Row="4" Grid.Column="2" Click="CheckForMine" Tag="25"></Button>
+        <Button Grid.Row="5" Grid.Column="2" Click="CheckForMine" Tag="26"></Button>
+        <Button Grid.Row="6" Grid.Column="2" Click="CheckForMine" Tag="27"></Button>
+        <Button Grid.Row="7" Grid.Column="2" Click="CheckForMine" Tag="28"></Button>
+        <Button Grid.Row="8" Grid.Column="2" Click="CheckForMine" Tag="29"></Button>
+        <Button Grid.Row="9" Grid.Column="2" Click="CheckForMine" Tag="30"></Button>
+        <Button Grid.Row="0" Grid.Column="3" Click="CheckForMine" Tag="31"></Button>
+        <Button Grid.Row="1" Grid.Column="3" Click="CheckForMine" Tag="32"></Button>
+        <Button Grid.Row="2" Grid.Column="3" Click="CheckForMine" Tag="33"></Button>
+        <Button Grid.Row="3" Grid.Column="3" Click="CheckForMine" Tag="34"></Button>
+        <Button Grid.Row="4" Grid.Column="3" Click="CheckForMine" Tag="35"></Button>
+        <Button Grid.Row="5" Grid.Column="3" Click="CheckForMine" Tag="36"></Button>
+        <Button Grid.Row="6" Grid.Column="3" Click="CheckForMine" Tag="37"></Button>
+        <Button Grid.Row="7" Grid.Column="3" Click="CheckForMine" Tag="38"></Button>
+        <Button Grid.Row="8" Grid.Column="3" Click="CheckForMine" Tag="39"></Button>
+        <Button Grid.Row="9" Grid.Column="3" Click="CheckForMine" Tag="40"></Button>
+        <Button Grid.Row="0" Grid.Column="4" Click="CheckForMine" Tag="41"></Button>
+        <Button Grid.Row="1" Grid.Column="4" Click="CheckForMine" Tag="42"></Button>
+        <Button Grid.Row="2" Grid.Column="4" Click="CheckForMine" Tag="43"></Button>
+        <Button Grid.Row="3" Grid.Column="4" Click="CheckForMine" Tag="44"></Button>
+        <Button Grid.Row="4" Grid.Column="4" Click="CheckForMine" Tag="45"></Button>
+        <Button Grid.Row="5" Grid.Column="4" Click="CheckForMine" Tag="46"></Button>
+        <Button Grid.Row="6" Grid.Column="4" Click="CheckForMine" Tag="47"></Button>
+        <Button Grid.Row="7" Grid.Column="4" Click="CheckForMine" Tag="48"></Button>
+        <Button Grid.Row="8" Grid.Column="4" Click="CheckForMine" Tag="49"></Button>
+        <Button Grid.Row="9" Grid.Column="4" Click="CheckForMine" Tag="50"></Button>
+        <Button Grid.Row="0" Grid.Column="5" Click="CheckForMine" Tag="51"></Button>
+        <Button Grid.Row="1" Grid.Column="5" Click="CheckForMine" Tag="52"></Button>
+        <Button Grid.Row="2" Grid.Column="5" Click="CheckForMine" Tag="53"></Button>
+        <Button Grid.Row="3" Grid.Column="5" Click="CheckForMine" Tag="54"></Button>
+        <Button Grid.Row="4" Grid.Column="5" Click="CheckForMine" Tag="55"></Button>
+        <Button Grid.Row="5" Grid.Column="5" Click="CheckForMine" Tag="56"></Button>
+        <Button Grid.Row="6" Grid.Column="5" Click="CheckForMine" Tag="57"></Button>
+        <Button Grid.Row="7" Grid.Column="5" Click="CheckForMine" Tag="58"></Button>
+        <Button Grid.Row="8" Grid.Column="5" Click="CheckForMine" Tag="59"></Button>
+        <Button Grid.Row="9" Grid.Column="5" Click="CheckForMine" Tag="60"></Button>
+        <Button Grid.Row="0" Grid.Column="6" Click="CheckForMine" Tag="61"></Button>
+        <Button Grid.Row="1" Grid.Column="6" Click="CheckForMine" Tag="62"></Button>
+        <Button Grid.Row="2" Grid.Column="6" Click="CheckForMine" Tag="63"></Button>
+        <Button Grid.Row="3" Grid.Column="6" Click="CheckForMine" Tag="64"></Button>
+        <Button Grid.Row="4" Grid.Column="6" Click="CheckForMine" Tag="65"></Button>
+        <Button Grid.Row="5" Grid.Column="6" Click="CheckForMine" Tag="66"></Button>
+        <Button Grid.Row="6" Grid.Column="6" Click="CheckForMine" Tag="67"></Button>
+        <Button Grid.Row="7" Grid.Column="6" Click="CheckForMine" Tag="68"></Button>
+        <Button Grid.Row="8" Grid.Column="6" Click="CheckForMine" Tag="69"></Button>
+        <Button Grid.Row="9" Grid.Column="6" Click="CheckForMine" Tag="70"></Button>
+        <Button Grid.Row="0" Grid.Column="7" Click="CheckForMine" Tag="71"></Button>
+        <Button Grid.Row="1" Grid.Column="7" Click="CheckForMine" Tag="72"></Button>
+        <Button Grid.Row="2" Grid.Column="7" Click="CheckForMine" Tag="73"></Button>
+        <Button Grid.Row="3" Grid.Column="7" Click="CheckForMine" Tag="74"></Button>
+        <Button Grid.Row="4" Grid.Column="7" Click="CheckForMine" Tag="75"></Button>
+        <Button Grid.Row="5" Grid.Column="7" Click="CheckForMine" Tag="76"></Button>
+        <Button Grid.Row="6" Grid.Column="7" Click="CheckForMine" Tag="77"></Button>
+        <Button Grid.Row="7" Grid.Column="7" Click="CheckForMine" Tag="78"></Button>
+        <Button Grid.Row="8" Grid.Column="7" Click="CheckForMine" Tag="79"></Button>
+        <Button Grid.Row="9" Grid.Column="7" Click="CheckForMine" Tag="80"></Button>
+        <Button Grid.Row="0" Grid.Column="8" Click="CheckForMine" Tag="81"></Button>
+        <Button Grid.Row="1" Grid.Column="8" Click="CheckForMine" Tag="82"></Button>
+        <Button Grid.Row="2" Grid.Column="8" Click="CheckForMine" Tag="83"></Button>
+        <Button Grid.Row="3" Grid.Column="8" Click="CheckForMine" Tag="84"></Button>
+        <Button Grid.Row="4" Grid.Column="8" Click="CheckForMine" Tag="85"></Button>
+        <Button Grid.Row="5" Grid.Column="8" Click="CheckForMine" Tag="86"></Button>
+        <Button Grid.Row="6" Grid.Column="8" Click="CheckForMine" Tag="87"></Button>
+        <Button Grid.Row="7" Grid.Column="8" Click="CheckForMine" Tag="88"></Button>
+        <Button Grid.Row="8" Grid.Column="8" Click="CheckForMine" Tag="89"></Button>
+        <Button Grid.Row="9" Grid.Column="8" Click="CheckForMine" Tag="90"></Button>
+        <Button Grid.Row="0" Grid.Column="9" Click="CheckForMine" Tag="91"></Button>
+        <Button Grid.Row="1" Grid.Column="9" Click="CheckForMine" Tag="92"></Button>
+        <Button Grid.Row="2" Grid.Column="9" Click="CheckForMine" Tag="93"></Button>
+        <Button Grid.Row="3" Grid.Column="9" Click="CheckForMine" Tag="94"></Button>
+        <Button Grid.Row="4" Grid.Column="9" Click="CheckForMine" Tag="95"></Button>
+        <Button Grid.Row="5" Grid.Column="9" Click="CheckForMine" Tag="96"></Button>
+        <Button Grid.Row="6" Grid.Column="9" Click="CheckForMine" Tag="97"></Button>
+        <Button Grid.Row="7" Grid.Column="9" Click="CheckForMine" Tag="98"></Button>
+        <Button Grid.Row="8" Grid.Column="9" Click="CheckForMine" Tag="99"></Button>
+        <Button Grid.Row="9" Grid.Column="9" Click="CheckForMine" Tag="100"></Button>
+        
+    </Grid>
+</Window>

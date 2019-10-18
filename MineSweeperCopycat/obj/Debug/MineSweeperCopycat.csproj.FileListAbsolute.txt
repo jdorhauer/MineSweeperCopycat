@@ -1,0 +1,15 @@
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\bin\Debug\MineSweeperCopycat.exe.config
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\bin\Debug\MineSweeperCopycat.exe
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\bin\Debug\MineSweeperCopycat.pdb
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\obj\Debug\MineSweeperCopycat.csprojAssemblyReference.cache
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\obj\Debug\MainWindow.g.cs
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\obj\Debug\App.g.cs
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\obj\Debug\MineSweeperCopycat_MarkupCompile.cache
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\obj\Debug\MineSweeperCopycat_MarkupCompile.lref
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\obj\Debug\MainWindow.baml
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\obj\Debug\MineSweeperCopycat.g.resources
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\obj\Debug\MineSweeperCopycat.Properties.Resources.resources
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\obj\Debug\MineSweeperCopycat.csproj.GenerateResource.cache
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\obj\Debug\MineSweeperCopycat.csproj.CoreCompileInputs.cache
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\obj\Debug\MineSweeperCopycat.exe
+C:\Users\jdorh\source\repos\MineSweeperCopycat\MineSweeperCopycat\obj\Debug\MineSweeperCopycat.pdb
